@@ -32,6 +32,7 @@
 7.	Compile that file with C compiler and verify the output.
 
 # INPUT
+```
 %{
 #include <stdio.h>
 #include <ctype.h>
@@ -63,7 +64,7 @@ int main(int argc, char **argv) {
 int yywrap() {
     return 1;
 }
-
+```
 # OUTPUT
 
 
